@@ -11,10 +11,10 @@
 import math
 import sys
 
-nb = raw_input('Problem: ')
+problem = raw_input('Problem: ')
 
 try:
-    answer = eval(nb)
+    answer = eval(problem)
 except:
     print 'Invalid mathematical statement'
     sys.exit(0)
