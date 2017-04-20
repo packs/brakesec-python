@@ -29,7 +29,7 @@ def parseShadow(shadow):
         except:
             # Skip all locked accounts
             continue
-        hashes.update({username: hash})
+        hashes[username] = hash
     return hashes
 
 
